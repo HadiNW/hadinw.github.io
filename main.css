@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+#header {
+   background: #000;  
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1024px;   
+    margin: 0 auto ;
+}
+
+#logo {
+    height: 52px;
+}
+
+#header ul {
+    color: #fff;   
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+#daftar {
+    position: absolute;
+    right: 0px;
+}
+
+.centerVertical {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+div#title {
+    width: 100%;
+    background: #ddd5d5b8;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#bannerArea {
+    background: #c3c3c3;
+}
+
+#bannerImg {
+    width: 100%;
+}
+
+#partner{
+    padding: 15px 0px; 
+  }
+  .imgPartner{
+    height: 36px;
+  }
+
+  .floatLeft{
+    float: left;
+    width: 48%;
+    padding: 1%;
+  }
+  .floatRight{
+    float: right;
+    width: 48%;
+    padding: 1%;
+  }
+
+  #article .wrapper {
+    display: table;
+  }
+
+  #maps{
+    padding: 15px 0px;
+  }
+
+  #contact{
+    background: #5c9dff;
+  }
+  form{
+    padding: 15px 0px;
+  }
+
+  .blocking{
+    display: block;
+    padding: 15px 0px;
+  }
+
+  li:hover { 
+    background-color: yellow;
+    color: #000
+}
