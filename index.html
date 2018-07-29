@@ -2,64 +2,57 @@
 <html lang="en">
 <head>    
     <title>My Profile</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="ico" href="assets/fox-logo.ico">
 </head>
 <body>
     <div id="header">
         <div class="wrapper">
-                <img id="logo" src="assets/fox-logo.png" alt="">
+                <img id="logo" src="assets/logo.png" alt="">            
                 <ul class="centerVertical">
-                    <li>About</li>
-                    <li>Location</li>
-                    <li>Contact</li>
+                    <li><a class="links" href="#carouselArea">Home</a></li>
+                    <li><a class="links" href="#about">About</a></li>
+                    <li><a  class="links" href="#portofolio">Portofolio</a></li>
+                    <li><a class="links" href="contact.html">Contact</a></li>
                 </ul>
-                <button id="daftar" class="centerVertical">Daftar Sekarang</button>
+               
         </div>   
     </div>  
         
-        <div id="bannerArea">            
-                    <img src="assets/banner.jpeg" alt="banner image" height="780px" width="100%">
+        <div id="carouselArea">            
+                    <img class="carousel" src="assets/carousel.png" alt="banner image" width="100%" height="830px">
                 <div id="title">
                         <center>
-                                <h1>
-                                    Menjadi fullstack web developer dalam 12 minggu
+                                <h1 class="hello" style="color: #FFFFFF; font-size: 40px;";>
+                                    Hello, I'm <span style="color: #68ACDC;">Hadi N W</span> 
                                 </h1>
-                                <h3>
-                                    Kelas Pemrograman Full Stack JavaScript Web Developer di Jakarta, Indonesia
-                                </h3>
+                                <h1 style="color: #FFFFFF; font-size: 37px">
+                                    I'm a Full-Stack Web Developer
+                                </h1>
                         </center>
                 </div>
-        </div>     
+        </div> 
         
-        <div id="partner">
-            <center>
-                    <img src="assets/partner1.png" class="imgPartner" alt="">
-                    <img src="assets/partner2.png" class="imgPartner" alt="">
-                    <img src="assets/partner3.png" class="imgPartner" alt="">
-                    <img src="assets/partner4.png" class="imgPartner" alt="">
-            </center>
-        </div>
-
-        <div id="article">
-            <div class="wrapper">                 
-                <img class="floatLeft" src="assets/home_banner_upper--md5--7f091ceb9b0fd04b706820e565a11865.jpg" alt="">               
+        <div id="about">
+            <div class="wrapper">    
+                
+                        <img class="clearfix floatLeft"  src="assets/man.jpeg" alt="">
+                         
+                              
                 <div class="floatRight">
-                        <h3>HACKTIV8 Coding Bootcamp</h3>
-                        <p>
-                            HACKTIV8 adalah program pembelajaran Full Stack JavaScript immersive pertama di I
-                            ndonesia. Kurikulum kami dirancang untuk membangun keahlian yang dapat diaplikasikan
-                             pada perkembangan dunia teknologi terkini.
+                        <h3 style="color: #626262; text-align: center; font-size: 30px;">Who am I ?</h3>
+                        <p style="text-align: center; color: #616161"> 
+                                I'm the Full-Stack Developer for <span style="color: #68ACDC; font-size: 1.2em">Key Major Coin</span> in  Malang, IDN. 
+                                I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. <br>
+                                <span style="color: #68ACDC; font-size: 1.2em">Let's make something special.</span>
                         </p>
                 </div>
             </div>
         </div>
 
         <div id="maps">
-                <div class="wrapper">
-                  <h3>Location</h3>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0228619079257!2d106.7794275149667!3d-6.260718695468413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1a8713ce207%3A0x2c3ea1f4a28bfac5!2sHacktiv8+Indonesia!5e0!3m2!1sen!2sid!4v1532678718559" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
+                
         </div>
 
         <div id="contact">
@@ -75,6 +68,11 @@
                     </div>
                   </form>
                 </div>
+
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+                
     
 </body>
 </html>

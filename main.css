@@ -1,8 +1,14 @@
 body {
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 #header {
-   background: #000;  
+   background: #1D242E;  
+   
+   position: fixed; /* Set the navbar to fixed position */
+   top: 0; /* Position the navbar at the top of the page */
+   width: 100%; /* Full width */
+   z-index: 5;
 }
 
 .wrapper {
@@ -12,7 +18,7 @@ body {
 }
 
 #logo {
-    height: 52px;
+    height: 45px;
 }
 
 #header ul {
@@ -44,18 +50,9 @@ body {
     transform: translateY(-50%);
 }
 div#title {
-    width: 100%;
-    background: #ddd5d5b8;
-    padding-top: 35px;
+    width: 100%;    
+    padding-top: 30px;
     padding-bottom: 35px;
-}
-
-#bannerArea {
-    background: #c3c3c3;
-}
-
-#bannerImg {
-    width: 100%;
 }
 
 #partner{
@@ -69,14 +66,18 @@ div#title {
     float: left;
     width: 48%;
     padding: 1%;
+    display: inline-block;
+    padding-top: 100px;
   }
   .floatRight{
     float: right;
     width: 48%;
     padding: 1%;
+    display: inline-block;
+    padding-top: 150px;
   }
 
-  #article .wrapper {
+  #about .wrapper {
     display: table;
   }
 
@@ -96,7 +97,55 @@ div#title {
     padding: 15px 0px;
   }
 
-  li:hover { 
-    background-color: yellow;
-    color: #000
+ /* unvisited link */
+a:link {
+    color: #fff;
+    text-decoration: none;
 }
+
+/* visited link */
+a:visited {
+    color:#fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #68ACDC;
+}
+
+/* selected link */
+a:active {
+    color:#55BFC7;
+}
+
+.imgP {
+	width: 30%;
+	float: left;
+    margin: 1.66%;
+    display: block;
+}
+
+.ps{
+	font-family: Raleway;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+    
+ 
+ 
