@@ -81,20 +81,29 @@ div#title {
     display: table;
   }
 
+  #portofolio .wrapper {
+    display: table;
+  }
+
   #maps{
     padding: 15px 0px;
   }
 
   #contact{
-    background: #5c9dff;
+    background: #1F242D;
   }
   form{
     padding: 15px 0px;
+    text-align: center;
+    color: #F9FBFA;
+    
+       
+     
   }
 
   .blocking{
-    display: block;
-    padding: 15px 0px;
+    display: inline;    
+    margin: 10px
   }
 
  /* unvisited link */
@@ -122,18 +131,20 @@ a:active {
 	width: 30%;
 	float: left;
     margin: 1.66%;
-    display: block;
+   
 }
 
+
 .ps{
-	font-family: Raleway;
+	 
 	margin-left: 1.66%;
 	font-size: 23px;
-	font-weight: 800;
-	text-transform: uppercase;
-	border-bottom: 2px solid #f1f1f1;
-	width: 30%;
-	padding-bottom: 20px;
+	font-weight: 1000;	 
+ 
+	width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    
 }
 
 .clearfix {
@@ -144,6 +155,11 @@ a:active {
     content: "";
     clear: both;
     display: table;
+}
+
+#portofolio  {
+    padding-top: 1px;
+    background: #f1f1f1;
 }
 
     

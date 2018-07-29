@@ -4,17 +4,18 @@
     <title>My Profile</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <link rel="ico" href="assets/fox-logo.ico">
+    <link rel="shortcut icon" href="assets/fav.png" type="image/x-icon">
 </head>
 <body>
     <div id="header">
         <div class="wrapper">
-                <img id="logo" src="assets/logo.png" alt="">            
+                <img id="logo" src="assets/hadi.png" alt="">            
                 <ul class="centerVertical">
                     <li><a class="links" href="#carouselArea">Home</a></li>
                     <li><a class="links" href="#about">About</a></li>
                     <li><a  class="links" href="#portofolio">Portofolio</a></li>
                     <li><a class="links" href="contact.html">Contact</a></li>
+                    <li><a class="links" href="blog.html">Blog</a></li>
                 </ul>
                
         </div>   
@@ -33,7 +34,7 @@
                         </center>
                 </div>
         </div> 
-        
+
         <div id="about">
             <div class="wrapper">    
                 
@@ -51,23 +52,43 @@
             </div>
         </div>
 
-        <div id="maps">
-                
+        <div id="portofolio">
+                <div class="wrapper">
+                        <p class="ps">Portofolio</p>
+                        <!-- Massimo Margagnoni -->
+                        <img class="imgP" src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg">
+                        <img class="imgP" src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
+                        <img class="imgP" src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
+                        
+                        <img class="imgP" src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
+                        <img class="imgP" src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
+                        <img class="imgP" src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
+                </div>
         </div>
 
         <div id="contact">
                 <div class="wrapper">
-                  <form action="#" method="GET">
-                    <h3>Hubungi Kami</h3>
-                    <label class="blocking">email anda</label>
-                    <input type="text" name="inputEmail" placeholder="email anda" style="width: 350px; padding: 10px; font-size: 14px"/>
-                    <label class="blocking">Pesan</label>
-                    <textarea name="inputPesan" style="width: 350px; height: 55px; padding: 10px; font-size: 14px"></textarea>
-                    <div>
-                      <input type="submit" value="kirim pesan">
-                    </div>
-                  </form>
-                </div>
+                   <center>
+                        <form class="" action="#" method="post">
+                                <h3>Have a question or want to work together?</h3>
+                                <input class="blocking" type="text" name="inputEmail" placeholder="Your Name" style="width: 350px; padding: 10px; font-size: 14px"/><br>
+                                <input class="blocking" type="text" name="inputEmail" placeholder="Your Email" style="width: 350px; padding: 10px; font-size: 14px"/><br>
+                                
+                                <textarea class="blocking" placeholder="Enter Your Message Here ..." name="inputPesan" style="width: 350px; height: 55px; padding: 10px; font-size: 14px"></textarea><br>
+                                <div>
+                                  <input style="padding: 5px; border: 1px solid black" class="blocking" type="submit" value="Send Message">
+                                </div>
+                              </form>
+                   </center>
+                           
+                   
+                
+         </div>
+         </div>
+
+       
+
+
 
 <script src="main.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

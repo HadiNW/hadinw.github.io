@@ -1,0 +1,24 @@
+<div id="map">
+                <div class="wrapper">
+                        <p class="ps">Colt/Steele</p>
+
+                        <!-- Massimo Margagnoni -->
+                        <img class="imgP" src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg">
+                        <img class="imgP" src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
+                        <img class="imgP" src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
+                </div>
+        </div>
+
+         <div id="contact">
+                <div class="wrapper">
+                  <form action="#" method="GET">
+                    <h3>Hubungi Kami</h3>
+                    <label class="blocking">email anda</label>
+                    <input type="text" name="inputEmail" placeholder="email anda" style="width: 350px; padding: 10px; font-size: 14px"/>
+                    <label class="blocking">Pesan</label>
+                    <textarea name="inputPesan" style="width: 350px; height: 55px; padding: 10px; font-size: 14px"></textarea>
+                    <div>
+                      <input type="submit" value="kirim pesan">
+                    </div>
+                  </form>
+                </div>
